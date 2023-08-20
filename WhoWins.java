@@ -5,6 +5,7 @@ public class WhoWins {
     WhoWins(String message){
         JFrame jf=new JFrame();
         jf.setSize(600,500);
+        jf.setLocation(300,200);
         jf.setLayout(null);
 
         JPanel jp=new JPanel();

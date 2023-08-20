@@ -10,6 +10,7 @@ public class UserPanel implements ActionListener{
     UserPanel(){
         jf=new JFrame();
         jf.setSize(600, 500);
+        jf.setLocation(400,100);
         jf.setLayout(null);
 
         jl1=new JLabel("Player 1: ");

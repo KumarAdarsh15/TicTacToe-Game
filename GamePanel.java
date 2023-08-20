@@ -29,6 +29,7 @@ public class GamePanel implements ActionListener{
 
         frame = new JFrame();
         frame.setSize(600, 500);
+        frame.setLocation(400,100);
         frame.getContentPane().setBackground(Color.GRAY);
         frame.setLayout(new BorderLayout());
 

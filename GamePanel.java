@@ -38,7 +38,6 @@ public class GamePanel implements ActionListener{
         textField.setFont(new Font("Ink Free", Font.BOLD, 75));
         textField.setHorizontalAlignment(JLabel.CENTER);
         textField.setText("Tic-Tac-Toe");
-        textField.setEditable(false);
         textField.setOpaque(true);
 
         title_panel.setLayout(new BorderLayout());
